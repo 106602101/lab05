@@ -36,6 +36,15 @@ aside:hover { display:block; }
     float: left;
 }
 
+/* Table properties */
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+}
+
 /* Footer properties */
 footer { 
     border-top: 4px double;
