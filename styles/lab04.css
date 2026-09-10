@@ -1,0 +1,67 @@
+/* 
+filename: lab04
+author: Ethan Purvis
+created: 27/08/2026
+last modified: 27/08/2026
+description: CSS file that applies basic 
+*/
+
+/* Set universal page properties */
+* {
+    font-family: calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Navbar properties */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* Set heading properties */
+h1, h2, h3 { font-family: Arial, sans-serif;}
+
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-size: 1.5rem;
+}
+
+#headingSection {
+    color: red;
+}
+
+#images {
+    text-align: center;
+}
+
+/* Aside and Footer properties */
+aside, footer { font-style: italic; }
+
+aside:hover { display: none; }
+
+/* Table and Table Components properties */
+table, th, tr, td { border: 1px solid black; }
+
+.tableMonth { text-align: right; }
+
+/* List properties */
+ol ul {list-style-type: square;}
+
+/* Special characters class properties */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
