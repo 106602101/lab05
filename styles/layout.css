@@ -12,20 +12,29 @@ header {
     margin: 0.5em;
     padding: 0.5em;
     background-color: lightgray;
+    text-align: center;
 }
 
-/* Aside section properties */
+/* Aside properties */
 aside {
     border: 4px inset purple;
     border-radius: 14px;
     margin: 1em;
     padding: 1em;
-    background: url(images/fade.jpg) repeat-x top left; 
+    width: 30%;
+    background: url(images/fade.jpg) repeat-x top left;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa; 
 }
 
 aside:hover { display:block; }
 
 .menu { display:inline-block; }
+
+/* Lists section properties */
+#lists {
+    float: left;
+}
 
 /* Footer properties */
 footer { 
