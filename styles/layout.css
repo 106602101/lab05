@@ -31,6 +31,17 @@ aside:hover { display:block; }
 
 .menu { display:inline-block; }
 
+/* Align lists, images, tables, and hyperlinks */
+#lists, #images, #tables, #hyperlinks{
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl { text-align: left; }
+
+/* Article properties */
+article { min-width: 30em; }
+
 /* Lists section properties */
 #lists {
     float: left;
@@ -45,8 +56,20 @@ table {
     float: right;
 }
 
+/* Images properties */
+#images {
+    float: right;
+}
+figure{
+    border: 2px solid #ccc;
+}
+
+/* Hyperlinks properties */
+#hyperlinks{ clear: both; float: left;}
+
 /* Footer properties */
 footer { 
     border-top: 4px double;
     background-color: purple; 
+    clear: both;
 }
