@@ -1,0 +1,18 @@
+/* 
+filename: layout
+author: Ethan Purvis
+created: 10/09/2026
+last modified: 10/09/2026
+description: CSS file that overwrites previous 'lab04.css' rules and adds additional rules too 
+*/
+
+/* Format aside section items */
+aside{
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background: url(images/fade.jpg) repeat-x top left; 
+}
+
+.menu { display: inline-block; }
